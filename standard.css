@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+
+main {
+	padding: 0 8vw;
+	display: grid;
+	grid-template-columns: 33% 67%;
+}
+
+.text {
+	padding: 0 4vw 0 0;
+	letter-spacing: 0;
+	line-height: 22px;
+}
+
+img {
+	width: 100%;
+}
+
+iframe {
+	width: 55vw;
+	height: 37vw;
+}
+
+@media (max-width: 1024px) {
+	main {
+    	display: block;
+		text-align: center;
+  	}
+	
+	.text {
+		display: inline-block;
+		padding: 0;
+		margin-bottom: 12px;
+	}
+	
+	.text-media {
+		text-align: left;
+		max-width: 500px;
+	}
+	
+	iframe {
+		width: 79vw;
+		height: 53vw;
+	}
+}

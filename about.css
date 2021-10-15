@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+main {
+	padding: 0 8vw;
+	display: grid;
+	grid-template-columns: 33% 67%;
+	align-items: center;
+}
+
+.text {
+	padding: 0 0 0 4vw;
+	letter-spacing: 0;
+	line-height: 22px;
+}
+
+img {
+	width: 100%;
+}
+
+@media (max-width: 768px) {
+	main {
+    	display: block;
+		text-align: center;
+  	}
+	
+	.text {
+		display: inline-block;
+		padding: 0;
+		margin-bottom: 12px;
+	}
+	
+	.text-media {
+		text-align: left;
+		max-width: 500px;
+	}
+}
