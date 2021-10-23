@@ -4,13 +4,7 @@
 main {
 	padding: 0 8vw;
 	display: grid;
-	grid-template-columns: 33% 67%;
-}
-
-.text {
-	padding: 0 4vw 0 0;
-	letter-spacing: 0;
-	line-height: 22px;
+	grid-template-columns: 67% 33%;
 }
 
 img {
@@ -22,16 +16,28 @@ iframe {
 	height: 37vw;
 }
 
+.text {
+	padding: 0 0 0 4vw;
+	letter-spacing: 0;
+	line-height: 24px;
+}
+
 @media (max-width: 1024px) {
+
 	main {
     	display: block;
 		text-align: center;
   	}
 	
+	iframe {
+		width: 79vw;
+		height: 53vw;
+	}
+
 	.text {
 		display: inline-block;
 		padding: 0;
-		margin-bottom: 12px;
+		margin-top: 60px;
 	}
 	
 	.text-media {
@@ -39,8 +45,4 @@ iframe {
 		max-width: 500px;
 	}
 	
-	iframe {
-		width: 79vw;
-		height: 53vw;
-	}
 }
