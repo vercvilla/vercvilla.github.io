@@ -3,15 +3,13 @@
 
 
 main {
-	padding: 0 8vw;
 	display: block;
 	text-align: center;
 }
 	
 .text {
 	display: inline-block;
-	padding: 0;
-	margin-bottom: 12px;
+	padding: 0 8vw;;
 }
 	
 .text-container {
@@ -20,7 +18,7 @@ main {
 	line-height: 24px;
 }
 
-a{
+a {
 	color: black;
 }
 	
