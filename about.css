@@ -10,6 +10,7 @@ main {
 	
 .text {
 	display: inline-block;
+	padding-bottom: 180px;
 }
 	
 .text-container {
@@ -21,4 +22,11 @@ main {
 a {
 	color: black;
 }
+
+.secondary-text {
+	color: #C7C5C5;
+}
 	
+h2 {
+	margin-top: 48px;
+}
