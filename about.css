@@ -7,6 +7,11 @@ main {
 	text-align: center;
 	padding: 0 8vw 0 8vw;
 }
+
+img {
+	max-width: 500px;
+	margin-bottom: 48px;
+}
 	
 .text {
 	display: inline-block;
