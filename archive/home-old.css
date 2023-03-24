@@ -3,9 +3,10 @@
 
 main {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	gap: 1.5vw;
+	grid-template-columns: 50% 50%;
+	grid-column-gap: 1.5vw;
 	padding:  0 3vw;
+	margin: 0;
 }
 
 main a {
@@ -18,6 +19,7 @@ main a {
 	display: block;
 	position: relative;
 	text-align: center;
+	margin: 0 0 1.5vw 0;
 }
 
 img {
@@ -64,13 +66,4 @@ img {
 
 .project:hover .project-label{
 	opacity: 1;
-}
-
-@media (max-width: 500px) {
-	
-	main {
-		grid-template-columns: 100%;
-		gap: 3vw;
-	}
-	
 }

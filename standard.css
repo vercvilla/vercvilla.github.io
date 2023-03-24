@@ -4,11 +4,12 @@
 main {
 	padding: 0 8vw;
 	display: grid;
-	grid-template-columns: 67% 33%;
+	grid-template-columns: 2fr 1fr;
 }
 
 img {
 	width: 100%;
+	cursor: zoom-in;
 }
 
 iframe {
