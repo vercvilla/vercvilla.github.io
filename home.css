@@ -74,3 +74,41 @@ img {
 	}
 	
 }
+
+@media (max-width: 480px) {
+	
+	main {
+		gap: 0;
+	}
+	
+	main a {
+		color: black;
+		text-decoration: none;
+	}
+	
+	.project-overlay {
+		display: none;
+	}
+	
+	.project-label {
+		position: static;
+		top: 0;
+		left: 0;
+		transform: translate(0,0);
+		opacity: 1;
+		transition: none;
+	}
+
+	.project-title {
+		font-size: 16px;
+		margin: 18px 0 0 0;
+	}
+	
+	.project-description {
+		font-size: 15px;
+		color: #C7C5C5;
+		margin: 6px 0 24px 0;
+		
+	}
+	
+}
