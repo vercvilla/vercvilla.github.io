@@ -25,6 +25,10 @@ p {
 	margin-bottom: 12px;
 }
 
+a {
+	color: black;
+}
+
 .text-section {
 	margin-bottom: 36px;
 }
