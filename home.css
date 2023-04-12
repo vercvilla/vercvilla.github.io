@@ -66,6 +66,14 @@ img {
 	opacity: 1;
 }
 
+@media (max-width: 768px) {
+	
+	main {
+		grid-template-columns: 50% 50%;
+	}
+	
+}
+
 @media (max-width: 500px) {
 	
 	main {
