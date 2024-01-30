@@ -17,6 +17,12 @@ iframe {
 	height: 37vw;
 }
 
+.images-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1.5vw;
+}
+
 .text {
 	padding: 0 0 0 4vw;
 	letter-spacing: 0;
@@ -29,6 +35,10 @@ iframe {
     	display: block;
 		text-align: center;
   	}
+	
+	.images-grid{
+	grid-template-columns: 1fr;
+	}
 	
 	iframe {
 		width: 79vw;
