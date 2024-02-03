@@ -17,10 +17,14 @@ iframe {
 	height: 37vw;
 }
 
-.images-grid{
+.image-no-caption{
+	margin-bottom: 14px;
+}
+
+.image-grid{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-gap: 1vw;
+	grid-gap: 16px;
 }
 
 .text {
@@ -36,14 +40,15 @@ iframe {
 		text-align: center;
   	}
 	
-	.images-grid{
-	grid-template-columns: 1fr;
-	}
-	
 	iframe {
 		width: 79vw;
 		height: 53vw;
 	}
+
+	.image-grid{
+		grid-template-columns: 1fr;
+	}
+	
 
 	.text {
 		display: inline-block;
