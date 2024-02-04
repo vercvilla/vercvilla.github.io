@@ -12,13 +12,8 @@ img {
 	cursor: zoom-in;
 }
 
-iframe {
-	width: 55vw;
-	height: 37vw;
-}
-
 .image-no-caption{
-	margin-bottom: 1vw;
+	margin: 0 0 1vw 0;
 }
 
 .image-grid{
@@ -33,6 +28,21 @@ iframe {
 	line-height: 24px;
 }
 
+#previous-next {
+	text-align: center;
+	color: #C7C5C5;
+	margin-top: 48px;
+}
+
+#previous-next a {
+	color: #C7C5C5;
+	text-decoration: none;
+}
+
+#previous-next a:hover {
+	color: black;
+}
+
 @media (max-width: 1024px) {
 
 	main {
@@ -40,21 +50,15 @@ iframe {
     	display: block;
 		text-align: center;
   	}
-	
-	iframe {
-		width: 79vw;
-		height: 53vw;
-	}
 
 	.image-grid{
 		grid-template-columns: 1fr;
 	}
-	
 
 	.text {
 		display: inline-block;
 		padding: 0;
-		margin-top: 48px;
+		margin: 48px 0 0 0;
 	}
 	
 	.text-media {
