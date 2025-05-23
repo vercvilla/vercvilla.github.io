@@ -1,6 +1,18 @@
 @charset "UTF-8";
 /* CSS Document */
 
+#work {
+	color: black;
+}
+
+#about {
+	color: #C7C5C5;	
+}
+
+#about:hover {
+	color: black;
+}
+
 main {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -54,6 +66,14 @@ img {
 
 	.note {
 		font-size: 2vw;
+	}
+	
+}
+
+@media (max-width: 440px) {
+
+	.project:hover .note{
+		opacity: 0;
 	}
 	
 }

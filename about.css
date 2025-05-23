@@ -1,6 +1,17 @@
 @charset "UTF-8";
 /* CSS Document */
 
+#work {
+	color: #C7C5C5;	
+}
+
+#work:hover {
+	color: black;
+}
+
+#about {
+	color: black;
+}
 
 main {
 	display: block;
