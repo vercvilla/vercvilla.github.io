@@ -14,21 +14,12 @@
 }
 
 main {
-	display: block;
 	text-align: center;
-}
-
-img {
-	max-width: 500px;
-	margin-bottom: 48px;
+	margin: 30px 0 180px 0;
 }
 	
-.text {
+.text{	
 	display: inline-block;
-	padding-bottom: 180px;
-}
-	
-.text-container {
 	max-width: 500px;
 	line-height: 24px;
 	font-size: 16px;
