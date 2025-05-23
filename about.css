@@ -5,7 +5,6 @@
 main {
 	display: block;
 	text-align: center;
-	padding: 0 8vw 0 8vw;
 }
 
 img {
@@ -19,19 +18,17 @@ img {
 }
 	
 .text-container {
-	text-align: left;
 	max-width: 500px;
 	line-height: 24px;
+	font-size: 16px;
+	text-align: left;
+}
+
+p {
+	margin-bottom: 24px;
 }
 
 a {
 	color: black;
 }
-
-.secondary-text {
-	color: #C7C5C5;
-}
 	
-h2 {
-	margin-top: 48px;
-}
