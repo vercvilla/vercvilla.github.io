@@ -16,14 +16,11 @@
 main {
 	display: block;
 	text-align: center;
-	margin-bottom: 180px;
+	margin: 24px 0 180px 0;
 }
 
 .text {
 	display: inline-block;
-}
-	
-.text-container {
 	max-width: 500px;
 	line-height: 24px;
 	font-size: 16px;
