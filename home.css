@@ -15,45 +15,17 @@
 
 main {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 1vw;
-}
-
-.project {
-	position: relative;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 3vw;
 }
 
 img {
+	position: relative;
 	display: block;
 	width: 100%;
 }
 
-.note {
-	color: white;
-	text-align: center;
-	font-size: 0.6vw;
-	position: absolute;
-	top: 96%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	opacity: 0;
-	transition: .5s ease;
-}
-
-.project:hover .note{
-	opacity: 1;
-}
-
 @media (max-width: 1000px) {
-	
-	main {
-		grid-template-columns: 1fr 1fr;
-		gap: 2vw;
-	}
-
-	.note {
-		font-size: 0.85vw;
-	}
 	
 }
 
@@ -62,18 +34,6 @@ img {
 	main {
 		grid-template-columns: 1fr;
 		gap: 3vw;
-	}
-
-	.note {
-		font-size: 2vw;
-	}
-	
-}
-
-@media (max-width: 440px) {
-
-	.project:hover .note{
-		opacity: 0;
 	}
 	
 }
