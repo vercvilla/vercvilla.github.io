@@ -33,7 +33,7 @@ img {
 
 	main {
 		grid-template-columns: 1fr;
-		gap: 3vw;
+		gap: 4vw;
 	}
 	
 }

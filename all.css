@@ -56,18 +56,13 @@ footer {
 
 @media (max-width: 1000px) {
 	
-	html {
-		margin-left: 3vw;
-		margin-right: 3vw;
-	}
-	
 }
 
 @media (max-width: 500px) {
 	
 	html {
-		margin-left: 4vw;
-		margin-right: 4vw;
+		margin-left: 5vw;
+		margin-right: 5vw;
 	}
 	
 	header { 
