@@ -15,8 +15,8 @@
 
 main {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 3vw;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 2vw;
 }
 
 img {
