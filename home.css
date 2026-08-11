@@ -26,7 +26,10 @@ img {
 }
 
 @media (max-width: 1000px) {
-	
+		main {
+		grid-template-columns: 1fr 1fr;
+		gap: 3vw;
+	}
 }
 
 @media (max-width: 500px) {

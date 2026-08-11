@@ -56,6 +56,10 @@ footer {
 
 @media (max-width: 1000px) {
 	
+	html {
+		margin-left: 4vw;
+		margin-right: 4vw;
+
 }
 
 @media (max-width: 500px) {
