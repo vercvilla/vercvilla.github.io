@@ -15,21 +15,14 @@
 
 main {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 2vw;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 3vw;
 }
 
 img {
 	position: relative;
 	display: block;
 	width: 100%;
-}
-
-@media (max-width: 1000px) {
-		main {
-		grid-template-columns: 1fr 1fr;
-		gap: 3vw;
-	}
 }
 
 @media (max-width: 500px) {
